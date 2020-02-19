@@ -1,0 +1,18 @@
+.nav_bg{
+    background: #1E1F33;
+}
+
+.nav_link_hover{
+    transition: .3s;
+  }
+  .nav_link_hover:hover.youtube{
+    background: red
+  }
+  
+  
+  .nav_link_hover:hover.instagram{
+    background: #405DE6;
+  }
+  .nav_link_hover:hover.facebook{
+    background: #47639E;
+  }

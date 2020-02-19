@@ -1,0 +1,11 @@
+.bg_card_white_f7{
+    background: #F7FAFF;
+}
+.bg_e2{
+    background: rgb(188, 195, 202);
+    transition: .1s;
+}
+.bg_e2:hover{
+    background: rgb(178, 203, 228);
+    
+}

@@ -1,0 +1,8 @@
+.bg_img_carousel{
+    background: url('https://cdn.pixabay.com/photo/2019/09/04/10/55/milky-way-4451281_960_720.jpg') center bottom/cover no-repeat;
+}
+@media (max-width: 700px){
+    .carousel_jumbo{
+        font-size: 35px;
+    }
+}

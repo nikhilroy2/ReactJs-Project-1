@@ -1,0 +1,30 @@
+.loader{
+    width: 100vw;
+    height: 100vh;
+}
+.loader_hide{
+    display: none!important;
+}
+.loader > img{
+    animation: 2s linear infinite loader;
+}
+@keyframes loader{
+    0%{
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn)
+    }
+}
+.loaderAnimate{
+    animation: 3s linear loaderAnimate;
+    animation-delay: 2s;
+}
+@keyframes loaderAnimate{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

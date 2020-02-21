@@ -17,7 +17,7 @@ export default function Contactpage(){
                      <textarea placeholder="Description Here..." className="w-100 py-2 px-2 border-0" name="" id="" cols="30" rows="10"></textarea>
                  </div>
                  <div className="col-sm-12 pb-2 text-center">
-                     <button type="submit" class="btn btn-success rounded-0 ">Submit Now</button>
+                     <button type="submit" className="btn btn-success rounded-0 ">Submit Now</button>
                  </div>
              </div>
          </form>

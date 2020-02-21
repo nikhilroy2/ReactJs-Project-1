@@ -1,5 +1,6 @@
 import React from 'react';
 import './loader.css';
+import Loading from '../image/loading.png'
 
 
 export default class extends React.Component{
@@ -31,7 +32,7 @@ export default class extends React.Component{
            
 
             >
-                <img src="https://loading.io/mod/spinner/spinner/thumb.png" alt=""/>
+                <img src={Loading} alt=""/>
         </div>
         )
     }

@@ -24,7 +24,7 @@ export default function Section_2() {
             <div className="row ">
                 <div className="col-sm-6 col-md-4 ">
                     <div className="card text-black-50 bg_card_white_f7">
-                        <img className="card-img-top" src="https://cdn.pixabay.com/photo/2013/05/11/08/28/person-110305__340.jpg" alt="" />
+                        <img  className="card-img-top" src="https://cdn.pixabay.com/photo/2013/05/11/08/28/person-110305__340.jpg" alt="" />
                         <div className="card-body">
                             <h4 className="card-title">
 

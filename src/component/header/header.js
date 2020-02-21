@@ -20,7 +20,7 @@ class Header extends React.Component {
 
 function Nav() {
     return (
-        <nav >
+        <nav className="nav_bg py-1" >
             <Top_Nav />
             <Bottom_Nav />
         </nav>
@@ -32,7 +32,7 @@ function Nav() {
 
 function Top_Nav() {
     return (
-        <div className="top_nav d-md-flex row no-gutters nav_bg text-white">
+        <div className="top_nav d-md-flex row no-gutters  text-white">
             <div className="col-12 col-md-6 align-self-center ">
                 <ul className="nav justify-content-center justify-content-md-end py-3 p-md-0 vertical-align-center ">
                     <li className="nav-item">
@@ -63,7 +63,7 @@ function Bottom_Nav() {
         background: '#041a2f'
     }
     return (
-        <div className="bottom_nav text-light" style={bottom_nav_style}>
+        <div className="bottom_nav text-light">
             <nav className="nav justify-content-start">
                 <Link to="/" className="nav-link text-light active cursor_pointer"  >
 

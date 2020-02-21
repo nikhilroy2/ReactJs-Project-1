@@ -4,9 +4,9 @@ import './section_1.css'
 export default function Section_1(){
     return(
         <section className="section_1  pb-3">
-            <div className="row">
-                <div className="col-sm-6 col-md-4 mb-5 mb-sm-0">
-                    <div className="card text-left border-0 px-2">
+            <div className="row no-gutters">
+                <div className="col-sm-6 col-md-4 mb-5 mb-sm-0 ">
+                    <div className="card text-left border-0 card_hover_shadow px-2">
                       <img className="card-img-top w-50 mx-auto mx-sm-0  my-2" src={require("./img/002-choir-b.png")} alt=""/>
                       <div className="card-body p-2">
                         <div className="card-title">
@@ -21,8 +21,8 @@ export default function Section_1(){
                       </div>
                     </div>
                 </div>
-                <div className="col-sm-6 col-md-4 mb-5 mb-sm-0">
-                    <div className="card text-left border-0 px-2">
+                <div className="col-sm-6 col-md-4 mb-5 mb-sm-0 ">
+                    <div className="card text-left border-0 px-2 card_hover_shadow">
                       <img className="card-img-top w-50 mx-auto mx-sm-0  my-2" src={require("./img/005-child-b.png")} alt=""/>
                       <div className="card-body p-2">
                         <div className="card-title">
@@ -40,8 +40,8 @@ export default function Section_1(){
                       </div>
                     </div>
                 </div>
-                <div className="col-sm-6 col-md-4 mb-5 mb-sm-0">
-                    <div className="card text-left border-0 px-2">
+                <div className="col-sm-6 col-md-4 mb-5 mb-sm-0 ">
+                    <div className="card text-left border-0 px-2 card_hover_shadow">
                       <img className="card-img-top w-50 mx-auto mx-sm-0  my-2" src={require("./img/006-church-b.png")} alt=""/>
                       <div className="card-body p-2">
                         <div className="card-title">
@@ -67,11 +67,11 @@ export default function Section_1(){
 function Section_1_child(){
     return (
         <div className="section_1_child row no-gutters text-light p-3 mt-3 rounded-lg shadow-lg">
-            <div className="col-12">
+            <div className="col-12 text-black-50">
                 <h5>
                 We gather for inspiration, fellowship, and guidance in the meaning of Christian discipleship.
                 </h5>
-                <p className="text-white-50">
+                <p >
                 We share God’s love in various ways in our homes, places of work, local community, and throughout the world.
                 </p>
             </div>

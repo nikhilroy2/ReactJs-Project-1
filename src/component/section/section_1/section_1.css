@@ -1,3 +1,12 @@
+
+.card_hover_shadow{
+    transition: .5s;
+
+}
+.card_hover_shadow:hover{
+    box-shadow: 0 0 3px 1px inset rgba(0, 0, 0,.4);
+}
+
 .section_1_child{
-    background: linear-gradient( 99deg, rgb(41, 41, 41), rgba(10, 190, 166, 0.404));
+    background: rgba(170, 170, 170,.5);
 }

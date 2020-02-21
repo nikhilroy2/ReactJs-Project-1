@@ -36,7 +36,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App container-lg m-0 px-1 mx-auto" style={{ background: "#ddd" }}>
+      <div className="App container-lg m-0 px-1 mx-auto">
         <Router>
           <Header />
 
@@ -49,6 +49,8 @@ class App extends React.Component {
 
           <Switch>
             <Route path="/" exact > <Home /> </Route>
+            <Route path="/ReactJs-Project-1" > <Home /> </Route>
+
             
             <Route path="/ReactJs-Project-1"> <Home/> </Route>
             <Route path="/blog">  <Blog /> </Route>

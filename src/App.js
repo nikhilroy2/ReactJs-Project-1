@@ -49,8 +49,8 @@ class App extends React.Component {
 
           <Switch>
             <Route path="/" exact > <Home /> </Route>
-            <Route path="/ReactJs-Project-1" > <Home /> </Route>
-
+            <Route path="/ReactJs-Project-1/" > <Home /> </Route>
+           
             
             <Route path="/ReactJs-Project-1"> <Home/> </Route>
             <Route path="/blog">  <Blog /> </Route>
@@ -73,7 +73,7 @@ class App extends React.Component {
 
             {/* Page Not Found Page Below */}
 
-            <Route > <Page404 /> </Route>
+            <Route > <Home/> </Route>
           </Switch>
 
           {/* Loader For Full Project */}

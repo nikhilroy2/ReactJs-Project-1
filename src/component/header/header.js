@@ -20,7 +20,7 @@ class Header extends React.Component {
 
 function Nav() {
     return (
-        <nav className="nav_bg py-1" >
+        <nav className="nav_bg " >
             <Top_Nav />
             <Bottom_Nav />
         </nav>
@@ -32,7 +32,7 @@ function Nav() {
 
 function Top_Nav() {
     return (
-        <div className="top_nav d-md-flex row no-gutters  text-white">
+        <div style={{backgroundColor : '#373438'}} className="top_nav d-md-flex row no-gutters  text-white">
             <div className="col-12 col-md-6 align-self-center ">
                 <ul className="nav justify-content-center justify-content-md-end py-3 p-md-0 vertical-align-center ">
                     <li className="nav-item">
@@ -67,24 +67,24 @@ function Bottom_Nav() {
             <nav className="nav justify-content-start">
                 <Link to="/" className="nav-link text-light active cursor_pointer"  >
 
-                    <Button variant="contained"  color="primary">
+                    <Button variant="contained"  style={{backgroundColor: '#333'}} color="primary">
                         Home
       </Button>
 
                 </Link>
                 <Link to="/blog" className="nav-link text-light cursor_pointer "  >
 
-                <Button variant="contained"  color="primary">
+                <Button style={{backgroundColor: '#333'}} variant="contained"  color="primary">
         Blog
       </Button>
                 </Link>
                 <Link to="/about" className="nav-link text-light cursor_pointer  "  >
-                <Button variant="contained"  color="primary">
+                <Button style={{backgroundColor: '#333'}} variant="contained"  color="primary">
         About
       </Button> 
                 </Link>
                 <Link to="/contact" className="nav-link text-light cursor_pointer  " >
-                <Button variant="contained"  color="primary">
+                <Button variant="contained" style={{backgroundColor: '#333'}}  color="primary">
         Contact Us
       </Button>  
                 </Link>

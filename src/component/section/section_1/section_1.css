@@ -4,7 +4,7 @@
 
 }
 .card_hover_shadow:hover{
-    box-shadow: 0 0 3px 1px inset rgba(0, 0, 0,.4);
+    box-shadow: 0 0 3px 1px inset rgba(0, 0, 0,.1);
 }
 
 .section_1_child{

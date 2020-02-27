@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.f471e738.chunk.css",
-    "main.js": "./static/js/main.7245816a.chunk.js",
-    "main.js.map": "./static/js/main.7245816a.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.33d7aa7f.js",
-    "runtime-main.js.map": "./static/js/runtime-main.33d7aa7f.js.map",
-    "static/js/2.ae2d6c3f.chunk.js": "./static/js/2.ae2d6c3f.chunk.js",
-    "static/js/2.ae2d6c3f.chunk.js.map": "./static/js/2.ae2d6c3f.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.4b88194277067997cf1a9f59e8d7669a.js": "./precache-manifest.4b88194277067997cf1a9f59e8d7669a.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.f471e738.chunk.css.map": "./static/css/main.f471e738.chunk.css.map",
-    "static/js/2.ae2d6c3f.chunk.js.LICENSE": "./static/js/2.ae2d6c3f.chunk.js.LICENSE",
-    "static/media/logo.svg": "./static/media/logo.5d5d9eef.svg",
-    "static/media/post.png": "./static/media/post.3a34eef2.png"
+    "main.css": "/ReactJs-Project-1/static/css/main.740ed0e0.chunk.css",
+    "main.js": "/ReactJs-Project-1/static/js/main.8b8a6001.chunk.js",
+    "main.js.map": "/ReactJs-Project-1/static/js/main.8b8a6001.chunk.js.map",
+    "runtime-main.js": "/ReactJs-Project-1/static/js/runtime-main.d41069e9.js",
+    "runtime-main.js.map": "/ReactJs-Project-1/static/js/runtime-main.d41069e9.js.map",
+    "static/js/2.4abb8819.chunk.js": "/ReactJs-Project-1/static/js/2.4abb8819.chunk.js",
+    "static/js/2.4abb8819.chunk.js.map": "/ReactJs-Project-1/static/js/2.4abb8819.chunk.js.map",
+    "index.html": "/ReactJs-Project-1/index.html",
+    "precache-manifest.7bc719c80f3fbc0732649ebf0fe6af4d.js": "/ReactJs-Project-1/precache-manifest.7bc719c80f3fbc0732649ebf0fe6af4d.js",
+    "service-worker.js": "/ReactJs-Project-1/service-worker.js",
+    "static/css/main.740ed0e0.chunk.css.map": "/ReactJs-Project-1/static/css/main.740ed0e0.chunk.css.map",
+    "static/js/2.4abb8819.chunk.js.LICENSE": "/ReactJs-Project-1/static/js/2.4abb8819.chunk.js.LICENSE",
+    "static/media/logo.svg": "/ReactJs-Project-1/static/media/logo.5d5d9eef.svg",
+    "static/media/post.png": "/ReactJs-Project-1/static/media/post.3a34eef2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.33d7aa7f.js",
-    "static/js/2.ae2d6c3f.chunk.js",
-    "static/css/main.f471e738.chunk.css",
-    "static/js/main.7245816a.chunk.js"
+    "static/js/runtime-main.d41069e9.js",
+    "static/js/2.4abb8819.chunk.js",
+    "static/css/main.740ed0e0.chunk.css",
+    "static/js/main.8b8a6001.chunk.js"
   ]
 }
